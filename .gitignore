@@ -1,0 +1,23 @@
+# Ignore Visual Studio specific files
+.vs/
+
+# Ignore Exercism-specific folder
+.exercism/
+
+# Ignore build output folder
+out/
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore IDE specific files (if using CLion, Xcode, etc.)
+.idea/
+*.xcodeproj
+*.xcworkspace
+cmake-build-*/
+
+# Ignore test result output (optional, if auto-generated)
+test/
